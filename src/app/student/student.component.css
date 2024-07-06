@@ -1,0 +1,12 @@
+
+table,th,td
+{
+    width: 10%;
+    height: 50%;
+border:1px solid rgb(248, 15, 15);
+}
+th, td
+{
+    color: rgb(6, 84, 53);
+    padding: 30px  ;
+}

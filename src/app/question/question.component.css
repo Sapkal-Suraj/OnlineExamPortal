@@ -1,0 +1,33 @@
+body{
+    max-width: 500px;
+    max-height: 650px;
+    margin:10px;
+    padding: 20px; 
+    border: 1px solid #a01616;
+    border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+   form {
+    display:table;
+    flex-direction:column;
+  }
+
+  button {
+    padding: 100px;
+    background-color: #f20f0f;
+    color: #120215;
+    border: 100px;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #16f847;
+  }
+    /*
+  input,option{
+  padding: 5px;
+  margin-bottom: 8px;
+} */
+

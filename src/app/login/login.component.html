@@ -1,0 +1,45 @@
+
+<body>
+    <br><br>
+    <form class="login-form" style="background-color: blueviolet;">
+    <!-- <div class="login-container">
+
+      <div class="image-container"> -->
+    <div>
+      <img style="position: absolute; top: 45px; right: 50px;" src="..\assets\images\welcome.jpg" width="1400px" height="680px"> 
+      </div>
+    
+
+<input  type="text" name ="username" placeholder="Enter Username" [(ngModel)]="user.username" > <br><br>
+<input  type="password" name ="password" placeholder="Enter password" [(ngModel)]="user.password" > <br><br>
+<br><br>
+<select name="subject" [(ngModel)]="subject">
+    <option value="maths">maths</option>
+    <option value="java">java</option>
+
+</select>
+<br><br>
+<br>
+<input  type=button value=login (click)="validate()" class="btn">
+
+</form>
+      
+{{message}}
+<!-- </div>
+    </div> -->
+
+</body>
+
+
+<!-- <div class="login-container">
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+  
+      <button type="submit">Login</button>
+    </form>
+  </div> -->
+  
